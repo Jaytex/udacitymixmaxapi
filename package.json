@@ -1,0 +1,34 @@
+{
+  "name": "giphy-mixmax-app",
+  "version": "0.0.1",
+  "description": "Giphy App for Mixmax",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mixmaxhq/giphy-mixmax-app.git"
+  },
+  "author": "Chanpory Rith <chanpory@mixmax.com> (https://mixmax.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mixmaxhq/giphy-mixmax-app/issues"
+  },
+  "homepage": "https://github.com/mixmaxhq/giphy-mixmax-app",
+  "dependencies": {
+    "body-parser": "^1.12.2",
+    "connect": "^3.4.1",
+    "cors": "^2.7.1",
+    "express": "^4.12.3",
+    "fs": "0.0.2",
+    "https": "^1.0.0",
+    "request": "^2.64.0",
+    "ssl-root-cas": "^1.2.1",
+    "synchronize": "^0.9.14",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.7.1"
+  }
+}
