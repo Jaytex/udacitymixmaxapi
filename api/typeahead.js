@@ -1,4 +1,3 @@
-var key = require('../utils/key');
 var sync = require('synchronize');
 var request = require('request');
 var _ = require('underscore');
@@ -41,11 +40,7 @@ module.exports = function(req, res) {
     .map(function(course) {
       return {
         title: '<div> <img style="height:75px" src="' + course.image + '"> <p>' + course.key + ': ' + course.title + '</p> <p> Level: ' + course.level + '</div>',
-        text:  { 
-          link: course.homepage,
-          image: course.image,
-          title: course.title
-        }
+        text:  course.key
       };
     })
     .value();
