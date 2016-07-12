@@ -1,21 +1,21 @@
 {
-  "name": "giphy-mixmax-app",
+  "name": "udacity-mixmax-app",
   "version": "0.0.1",
-  "description": "Giphy App for Mixmax",
+  "description": "Udacity App for Mixmax",
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mixmaxhq/giphy-mixmax-app.git"
+    "url": "git://https://github.com/Jaytex/udacitymixmaxapi.git"
   },
-  "author": "Chanpory Rith <chanpory@mixmax.com> (https://mixmax.com/)",
+  "author": "Jay Bamimore <jaybamimore@hotmail.com> (http://jaybamore.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mixmaxhq/giphy-mixmax-app/issues"
+    "url": "https://github.com/Jaytex/udacitymixmaxapi/issues"
   },
-  "homepage": "https://github.com/mixmaxhq/giphy-mixmax-app",
+  "homepage": "https://github.com/Jaytex/udacitymixmaxapi",
   "dependencies": {
     "body-parser": "^1.12.2",
     "connect": "^3.4.1",

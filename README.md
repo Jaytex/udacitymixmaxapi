@@ -16,7 +16,7 @@ curl https://localhost:9145/typeahead?text=<course title>
 To simulate locally how Mixmax calls the resolver URL (to return HTML that goes into the email), run:
 
 ```
-curl https://localhost:9145/resolver?text=<track name>
+curl https://localhost:9145/resolver?text=<course id>
 ```
 
 ## What does it do?
